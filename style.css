@@ -1,0 +1,48 @@
+.header {
+  background-color: black;
+  height: 100px;
+  color: azure;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  height: 100px;
+  color: azure;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(74, 74, 85);
+  width: 100%;
+  padding: 20px 0;
+}
+#products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  border: solid;
+  color: rgb(172, 147, 147);
+  flex-basis: 30%;
+  direction: rtl;
+  text-align: center;
+}
+.cartBox {
+  text-align: center;
+  margin: 20px 0;
+}
+.cartBox h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+#shoppingCart div {
+  direction: rtl;
+  color: white;
+}
+#emptyMyCart {
+  margin-top: 10px;
+}
